@@ -5,11 +5,11 @@
 class Rectangle:
     """Write a class Rectangle that defines a rectangle"""
     def __init__(self, width=0, height=0):
-        self.width = width        
+        self.width = width
         self.height = height
 
     @property
-    def width(self):        
+    def width(self):
         return self.__width
 
     @width.setter
@@ -22,7 +22,7 @@ class Rectangle:
             self.__width = value
             
     @property
-    def height(self):        
+    def height(self):
         return self.__height
 
     @height.setter
