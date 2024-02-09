@@ -1,1 +1,1 @@
-#javascript-web_jquery
+we are going to learn jquery for styles our web
